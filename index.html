@@ -3,20 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Menu desplegable sin javascript</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="opt1/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<nav id="navigation">
-		<div class="control-items">
-			<span style="color:white">Menu desplegable sin javascript</span>
+	<nav class="panel panel-primary navigation">
+		<div class="panel-heading">
+			<h3 class="panel-title">Menu desplegable sin javascript</h3>
 		</div>
-		<ul class="items" style="height:auto;">
-			<li><a href="opt1/"><span>Option 1</span></a></li>
-			<li><a href="opt2/"><span>Option 2</span></a></li>
-		</ul>
+		<div class="panel-body">
+			<ul class="list-group no_mar_b">
+				<li class="list-group-item"><a href="opt1/"><span>Option 1</span></a></li>
+				<li class="list-group-item"><a href="opt2/"><span>Option 2</span></a></li>
+			</ul>
+		</div>
 	</nav>
 </body>
 </html>
