@@ -60,21 +60,6 @@ a.active {
   max-width: 600px;
   margin: 0 auto;
   position: relative;
-  /*&:target{
-		.menu{
-			&_open{
-				.dis-none;
-			}
-			&_close{
-				.dis-inBlock;
-			}
-		}
-		.items{
-			background: #f0f0f0;
-			height: 250px;
-			transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s;
-		}
-	}*/
 }
 #navigation #clicked {
   display: none;
@@ -125,9 +110,6 @@ a.active {
   border-radius: 50%;
   float: left;
   overflow: hidden;
-}
-.bar_icon {
-  float: right;
 }
 .clear_both {
   clear: both;
