@@ -89,3 +89,15 @@ a.active {
   text-align: center;
   width: 30px;
 }
+.logo {
+  background: white url("../../img/user.svg") no-repeat center top / 125%;
+  border-radius: 50%;
+  float: left;
+  overflow: hidden;
+}
+.bar_icon {
+  float: right;
+}
+.clear_both {
+  clear: both;
+}
